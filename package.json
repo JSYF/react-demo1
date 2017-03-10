@@ -1,0 +1,36 @@
+{
+    "name": "smallPorject",
+    "version": "1.0.0",
+    "description": "小型项目",
+    "main": "index.js",
+    "scripts": {
+        "server": "nodemon --harmony server/app.js",
+        "build": "webpack",
+        "c-dev": "webpack-dev-server  --devtool eval --progress --colors --content-base client/build/"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.17.1",
+        "cookie-parser": "^1.4.3",
+        "express": "^4.15.2",
+        "morgan": "^1.8.1",
+        "nodemon": "^1.11.0",
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2",
+        "serve-favicon": "^2.4.1",
+        "webpack": "^2.2.1"
+    },
+    "devDependencies": {
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.4.0",
+        "babel-preset-es2015": "^6.22.0",
+        "babel-preset-react": "^6.23.0",
+        "babel-preset-stage-0": "^6.22.0",
+        "css-loader": "^0.26.2",
+        "jsx-loader": "^0.13.2",
+        "less": "^2.7.2",
+        "less-loader": "^3.0.0",
+        "style-loader": "^0.13.2",
+        "webpack-dev-server": "^2.4.1"
+    }
+}
